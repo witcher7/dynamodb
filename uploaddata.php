@@ -12,7 +12,7 @@
     use Aws\DynamoDb\DynamoDbClient;
 
     $client = DynamoDbClient::factory(array(
-        'region' => 'us-east-1',  // replace with your desired region
+        'region' => 'eu-west-1',  // replace with your desired region
         'version' => '2012-08-10' // Now needs a version
     ));
 
