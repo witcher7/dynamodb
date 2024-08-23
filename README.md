@@ -7,3 +7,5 @@
 # echo "Hello everyone" > index.html
 # git clone the repo
 
+ curl -sS https://getcomposer.org/installer | php
+ php composer.phar require aws/aws-sdk-php
